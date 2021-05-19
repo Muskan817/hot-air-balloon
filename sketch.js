@@ -12,7 +12,7 @@ function setup() {
   createCanvas(1000,640);
   balloon = createSprite(500,300, 50, 50);
   balloon.addAnimation("hotairballoon", hotairballoon);   
-  balloon.scale = 0.01;
+  balloon.scale = 0.4;
 
 
   var ballposition = database.ref("Balloon/Position");
